@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    width: 350px;
+    max-width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    text-align: center;
+    color: #4B0082;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #F8F8FF;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #8A2BE2;
+}
+
+.input-icon {
+    margin-right: 10px;
+    fill: #8A2BE2;
+}
+
+.input-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    color: #4B0082;
+}
+
+.button1, .button2, .button3 {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.button1 {
+    background-color: #8A2BE2;
+    color: #FFFFFF;
+}
+
+.button1:hover {
+    background-color: #7A1CBE;
+}
+
+.button2, .button3 {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+.button2:hover, .button3:hover {
+    background-color: #45A049;
+}
+
+.button3 {
+    background-color: #FF4500;
+}
+
+.button3:hover {
+    background-color: #E63946;
+}

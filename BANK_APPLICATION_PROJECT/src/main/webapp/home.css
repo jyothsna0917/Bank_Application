@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.action-button {
+    padding: 10px 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.action-button:hover {
+    background-color: darkcyan;
+}
+
+/* Side menu styling */
+.menu-wrapper {
+    position: relative;
+}
+
+.side-menu {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Position below the navbar */
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Show side menu on hover */
+.menu-wrapper:hover .side-menu {
+    display: flex;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.profile { background-color: #4CAF50; }
+.update { background-color: #2196F3; }
+.delete { background-color: #F44336; }
+.logout { background-color: #FF9800; }
+
+.menu-item:hover {
+    opacity: 0.8;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #4B0082;
+}
